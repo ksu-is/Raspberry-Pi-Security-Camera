@@ -22,7 +22,12 @@ pir = MotionSensor(4)
 camera.rotation = 180 # delete or adjust to 90, 180, or 270 accordingly
 h264_video = ".h264" 
 mp4_video = ".mp4" 
-
+'''
+assuming you have a file name and path for the XXX.h264 file, 
+you would run a command such as 
+import os
+os.system(ffmpeg -i XXX.h264 -vcodec copy -an XXX.mp4)
+'''
 while True:
 
     # record h264 video then save as mp4
