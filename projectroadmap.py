@@ -3,6 +3,7 @@
 - [X] Properly connect the motion sensor and camera to the raspberry pi board.
 - [X] import Gpiozero, motion sensor, and picamera files into code.
 - [X] import date and time of motion capture into the code.
+- [ ] Send user an email containing the date, time and motion captured.
 - [ ] Display image of motion capture with proper recording of date and time.
 #Below is a list of steps that could protect the security of the footage caught.
 - [ ] Develop a secure login code for the user when footage is captured.
